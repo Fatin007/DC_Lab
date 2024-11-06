@@ -32,7 +32,7 @@ int main(){
     for(int i=0; i<n; i++){
         cin>>segments[i];
     }
-    string sum="00000000";
+    string sum="0";
     for(int i=0; i<n; i++){
         sum = binaryAdd(sum, segments[i]);
     }
@@ -45,7 +45,7 @@ int main(){
     for(int i=0; i<n+1; i++){
         cin>>receiverSegments[i];
     }
-    string receiverSum="00000000";
+    string receiverSum="0";
     for(int i=0; i<n+1; i++){
         receiverSum = binaryAdd(receiverSum, receiverSegments[i]);
     }
