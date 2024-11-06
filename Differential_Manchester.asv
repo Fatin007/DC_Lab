@@ -18,7 +18,7 @@ for i=1:n
 end
 
 bw=bw(1000:end);
-plot(t,bw, 'LineWidth',1.5, 'Color', '#00ff00')
+plot(t,bw)
 grid on;
 axis([0 n -2 2]);
 

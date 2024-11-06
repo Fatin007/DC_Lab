@@ -17,10 +17,6 @@ end
 
 bw=bw(1000:end);
 plot(t,bw);
-title('Manchester Encoding');
+title('M')
 grid on;
 axis([0 n -2 2]);
-
-ll=0.5:1:n;
-xticks(ll);
-xticklabels(b);
