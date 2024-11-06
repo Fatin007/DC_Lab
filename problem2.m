@@ -11,11 +11,11 @@ for k=1:2:9
     
     subplot(6,1,(k+1)/2);
     plot(t,x);
-    axis([0,5*T,-A,A]);
+    axis([0,5*T,-1.5,1.5]);
     grid on;
 end
 
 subplot(6,1,6);
 plot(t,composite);
-axis([0,5*T,-5*A,5*A]);
+axis([0,5*T,-6,6]);
 grid on;
