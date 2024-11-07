@@ -10,4 +10,3 @@ axis([-6 6 -3 3]);
 ylabel("x(t)");
 xlabel("Time(sec)");
 title("Figure 2.1");
-
