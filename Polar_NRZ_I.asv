@@ -6,10 +6,9 @@ t = 0:.001:n;
 for i = 1:n
     if (b(i) == 0)
         %b_p(i) = 1;
-        bw(i*1000:(i+1)*1000)=1;
+        bw(i)=1
     else
         %b_p(i) = -1;
-        bw(i*1000:(i+1)*1000)=-1;
     end
 end
 %for j = 1:n

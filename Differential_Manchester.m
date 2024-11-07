@@ -21,6 +21,11 @@ bw=bw(1000:end);
 plot(t,bw, 'LineWidth',1.5, 'Color', '#00ff00')
 grid on;
 axis([0 n -2 2]);
+hold on;
+for i = 0.5:0.5:n
+    plot([1 1]*i, [-2 2], 'LineWidth',.5, 'Color',[0 0 0 0.3], 'LineStyle','--');
+end
+hold off;
 
 ll=0.5:1:n;
 xticks(ll)
